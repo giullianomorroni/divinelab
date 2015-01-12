@@ -19,6 +19,9 @@ _cgo_export.*
 
 _testmain.go
 
+/app/routes/routes.go
+/app/tmp/main.go
+
+
 *.exe
 *.test
-*.prof
