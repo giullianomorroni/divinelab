@@ -3,7 +3,6 @@ package controllers
 import (
 	cb "divinelab/app/controllers/base"
 	"github.com/robfig/revel"
-	srv "divinelab/app/services"
 )
 
 type (
