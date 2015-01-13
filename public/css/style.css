@@ -12,7 +12,7 @@ a.brand img {
 }
 /***** Profile *****/
 	.profile h1 {
-	color:#39d084;
+	color:#D0FFAC;
 	font-weight: normal;
 }
 .profile h3 {
@@ -261,7 +261,7 @@ ul.work-images li img:hover {
 	text-align:center;
 }
 .footer {
-	background:#355267;
+	background:#7F939C;
 	position: fixed;
 	width: 100%;
 	bottom:0;

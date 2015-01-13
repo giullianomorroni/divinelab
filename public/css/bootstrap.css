@@ -168,7 +168,7 @@ body {
 	font-size: 14px;
 	line-height: 20px;
 	color: #fff;
-	background-color: #203748;
+	background-color: #6D8794;
 }
 a {
 	color: #0088cc;
@@ -2838,7 +2838,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 	min-height: 40px;
 	padding-left: 20px;
 	padding-right: 20px;
-	background-color: #f04949;
+	background-color: #D0FFAC;
  *zoom: 1;
 }
 .navbar-inner:before, .navbar-inner:after {
@@ -3003,6 +3003,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 	margin: 22px 30px;
 }
 .navbar .nav > li > a {
+    background-color: #6D8794;
 	float: none;
 	padding: 10px 15px 10px;
 	color: #fff;
@@ -3019,14 +3020,14 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 	margin-top: 8px;
 }
 .navbar .nav > li > a:focus, .navbar .nav > li > a:hover, .navbar .nav > li > a.active {
-	background-color: #203748;
+	background-color: #6D8794;
 	color: #fff;
 	text-decoration: none;
 }
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
 	color: #fff;
 	text-decoration: none;
-	background-color: #203748;
+	background-color: #6D8794;
 }
 .navbar .btn-navbar {
 	display: none;
