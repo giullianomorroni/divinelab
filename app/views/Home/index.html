@@ -1,47 +1,18 @@
 <!DOCTYPE html>
-    <html lang="en">
+<html lang="pt_BR">
     <head>
-    <meta charset="utf-8">
-    <meta name="google-site-verification" content="2JvJ8CE5cqgQ6n25yvN_m6npmMfMrYvea4HrcmspEX0" />
-    <title>DivineLAB</title>
-    <meta name="description" content="DivineLAB Laboratório">
-    <meta name="keywords" content="divineslim, lab, emagrecer, nutraceuticos">
-    <meta name="author" content="Giulliano morroni">
-    <meta name="description" content="Empresa de produtos nutraceuticos, para o bem estar, saúde e equilíbrio">
-    <!-- styles -->
-    <link href="/public/css/bootstrap.css" rel="stylesheet">
-    <link href="/public/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="/public/css/style.css" rel="stylesheet">
-    <link href="/public/font/css/fontello.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+		{{template "cabecalho.html".}}
     </head>
     <body>
-    <div class="navbar">
-      <div class="navbar-inner">
-        <div class="container"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> 
-        <a class="brand" href="index.html" style="margin-left: -120px;"><img src="/public/img/logo2.png"/></a>
-          <ul class="nav nav-collapse pull-right">
-            <li style="margin: 18px 10px;"><a href="/" class="active"><i class="icon-user"></i> A Empresa</a></li>
-            <li style="margin: 18px 10px;"><a href="#"><i class="icon-trophy"></i> Produtos</a></li>
-            <li style="margin: 18px 10px;"><a href="#"><i class="icon-picture"></i> Quem Somos</a></li>
-            <li style="margin: 18px 10px;"><a href="#"><i class="icon-doc-text"></i> Contato</a></li>
-          </ul>
-          <!-- Everything you want hidden at 940px or less, place within here -->
-          <div class="nav-collapse collapse">
-            <!-- .nav, .navbar-search, .navbar-form, etc -->
-          </div>
-        </div>
-      </div>
-    </div>
+   		{{template "menu.html".}}
+    		
     <!--Profile container-->
     <div class="container profile">
-      <div class="span2"> <img src="/public/img/mini.png"> </div>
-      <div class="span6">
+      <div class="span5">
         <h1>DivineLAB</h1>
         <h3>saúde, bem-estar e qualidade de vida.</h3>
 
         <h2>Olá, Seja Bem Vindo ! </h2>
-        <h2>Informamos que nosso site está passando por uma atualização</h2>
 
         <p> SOBRE A EMPRESA: A DivineLAB nasceu com DNA de oferecer ao mercado soluções extremamente confiáveis no
             segmento de nutracêuticos, por meio de produtos e serviços que promovam a saúde, bem 
@@ -49,52 +20,14 @@
             seu know how para lançar produtos com fórmulas e matérias-primas consolidadas em todo 
             mundo, tornando seus produtos eficazes com resultados reais para o consumidor.
         </p>
-
-        <h2>Em breve você terá um site completo com todas as informações de que você precisa</h2>
        </div>
+      	
+      	<div class="span3"> <img src="/public/img/doutor.png" class="img"> </div>
     </div>
     <!--END: Profile container-->
-    <!-- Social Icons -->
-    <div class="row social">
-      <ul class="social-icons">
-        <li><a href="#" target="_blank"><img src="/public/img/fb.png" alt="facebook"></a></li>
-        <li><a href="#" target="_blank"><img src="/public/img/tw.png" alt="twitter"></a></li>
-        <li><a href="#" target="_blank"><img src="/public/img/go.png" alt="google plus"></a></li>
-        <li><a href="#" target="_blank"><img src="/public/img/pin.png" alt="pinterest"></a></li>
-        <li><a href="#" target="_blank"><img src="/public/img/st.png" alt="stumbleupon"></a></li>
-        <li><a href="#" target="_blank"><img src="/public/img/dr.png" alt="dribbble"></a></li>
-      </ul>
-    </div>
-    <!-- END: Social Icons -->
-    <!-- Footer -->
-    <div class="footer">
-      <div class="container">
-        <p class="pull-left"><a href="/">www.divinelab.com.br</a></p>
-        <p class="pull-right"><a href="#myModal" role="button" data-toggle="modal"> <i class="icon-mail"></i> CONTATO</a></p>
-      </div>
-    </div>
-    
-    <!-- Contact form in Modal -->
-    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="myModalLabel"><i class="icon-mail"></i> Fale Conosco </h3>
-      </div>
-      <div class="modal-body">
-        <form>
-          <input type="text" placeholder="nome completo">
-          <input type="text" placeholder="email para contato">
-          <textarea rows="3" style="width:80%"></textarea>
-          <br/>
-          <button type="submit" class="btn btn-large"><i class="icon-paper-plane"></i> ENVIAR</button>
-        </form>
-      </div>
-    </div>
-    <!-- Scripts -->
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="/public/js/bootstrap.min.js"></script>
-    <script>
-        $('#myModal').modal('hidden')
-    </script>
+
+    {{template "modal.html".}}
+    {{template "rodape.html".}}
+
     </body>
-    </html>
+</html>

@@ -3,6 +3,8 @@
 #module:testrunner
 
 GET		/							Home.Index
+GET		/valores					Home.Valores
+GET		/produtos					Home.Produtos
 
 #favicon requests
 GET     /favicon.ico  Static.Serve("public","favicon.ico")
