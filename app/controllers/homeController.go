@@ -26,7 +26,7 @@ func (this *Home) Produtos() revel.Result {
 	return this.Render();
 }
 
-func (this *Home) EnviarEmailContato(nome, email, texto string) revel.Result {
+func (this *Home) Contato(nome, email, texto string) revel.Result {
 	mime := "MIME-version: 1.0;\nContent-Type: text/html; charset=\"UTF-8\";\n\n";
 	revel.TRACE.Printf("[EmailService.go] Disparo email EnviarEmailContato")
 
