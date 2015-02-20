@@ -5,6 +5,7 @@
 GET		/							Home.Index
 GET		/valores					Home.Valores
 GET		/produtos					Home.Produtos
+POST    /contato                    Home.Contato
 
 #favicon requests
 GET     /favicon.ico  Static.Serve("public","favicon.ico")
