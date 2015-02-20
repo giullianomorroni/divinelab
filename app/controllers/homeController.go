@@ -40,5 +40,5 @@ func (this *Home) EnviarEmailContato(nome, email, texto string) revel.Result {
 		revel.TRACE.Printf("Erro no disparo de email %s", err)
 	}
     this.Flash.Success("Recebemos sua mensagem com sucesso!")
-    return this.Redirect(Home.Index)
+    return this.Redirect(*Home.Index)
 }
